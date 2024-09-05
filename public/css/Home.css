@@ -169,14 +169,24 @@ header {
   padding-bottom: 4%;
 }
 
-img, svg {
-    vertical-align: middle;
-    width: 30%;
-}
+
 .container{
     background-color: white;
     padding-bottom: 3%;
     padding-top: 3%;
+}
+.Fresco img{
+    
+     width: 30%;
+   
+}
+
+.Natural img{
+    width: 30%;
+}
+
+.Tasty img{
+    width: 30%;
 }
 /*----------------------------------------*/
 
@@ -354,8 +364,10 @@ img, svg {
 /*--------------------FEAUTERS2--------------------*/
 
 
-/*.Feauters2 {
+.Feauters2 {
   background-color: #171b1b;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .TextF2 {
@@ -379,29 +391,39 @@ img, svg {
   color: white;
 }
 
-.Cuadrados {
-  display: flex;
-  justify-content: center;
+.container p{
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.container h1{
+    font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
 }
 
-.Contacto,
-.Baking,
-.Delivery,
-.Delicioso {
-  background-color: white;
-  width: 30%;
-  margin: 0%;
-  padding: 10px;
-  box-sizing: border-box;
-  padding-bottom: 3%;
-  border-right: 5px;
-}*/
+.container h2{
+    font-family: "DM Sans", system-ui;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+}
+
+
 /*----------------------------------------*/
 
 /*--------------------FEAUTERS3--------------------*/
-
+.Feauters3{
+    background-color: #171b1b;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 .Feauters3 img {
   width: 30%;
+
 }
 
 /*----------------------------------------*/
@@ -447,9 +469,9 @@ img, svg {
 }
 
 .Panadero img {
-  width: 40%;
+  width: 60%;
   position: relative;
-  left: 43%;
+  left: 37%;
 }
 
 .BtnPanaderos {
