@@ -4,6 +4,9 @@
   padding: 0%;
   margin: 0%;
 }
+body{
+    width: 100%;
+}
 /*--------------------NAV--------------------*/
 header {
   background-color: rgb(23, 27, 27);
@@ -209,16 +212,29 @@ header {
 
 /*----------------------------------------*/
 /*--------------------CATALOGO--------------------*/
+.Catalogo {
+    background-color: #f5d3ab;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.A{
+    display: flex;
+    align-items: center;
+}
 .TextBaked {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     position: relative;
-    left: 20%;
-  }
-  
-  .BtnBaked {
+    left: 26%;
+   
+}
+
+
+
+.BtnBaked {
     position: relative;
-    right: -34%;
+    right: -40%;
     width: 7%;
     height: 50px;
     border-color: black;
@@ -229,173 +245,120 @@ header {
     margin-top: 51px;
     border-radius: 5px;
     background-color: #f5d3ab;
-  }
-  
-  .A {
-    display: flex;
-    padding-bottom: 3%;
-  }
-  
-  .TextBaked p {
+}
+
+
+.TextBaked p {
     font-family: "Oswald", sans-serif;
     padding-bottom: 30px;
     font-size: 15px;
     direction: initial;
-  }
-  .TextBaked h1{
+}
+
+.TextBaked h1 {
     font-family: "Ultra", serif;
-  font-weight: lighter;
-  font-style: normal;
-  font-size: 40px;
-  padding-bottom: 4%;
-  }
-.Card1{
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 4%;
+}
+
+.Card1 {
     display: flex;
     align-items: center;
 }
-.Item img{
-width: 30%;
+
+.Item img {
+    width: 37%;
 }
 
-.Item{
+.Item {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.TextCard1{
+.TextCard1 {
     position: absolute;
     top: 65%;
-    left: 46%;
+    left: 44%;
     transform: translate(-50%, -50%);
     color: white;
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-   
-}
-.TextCard1 p{
-    font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  direction: initial;
+
 }
 
-.TextCard1 h2{
+.TextCard1 p {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    direction: initial;
+}
+
+.TextCard1 h2 {
     font-family: "DM Sans", system-ui;
     font-size: 30px;
     font-style: normal;
     position: relative;
-    
+
 }
-.h3Card1{
+
+.h3Card1 {
     font-family: "Ultra", serif;
     font-weight: lighter;
     font-style: normal;
     font-size: 30px;
     position: absolute;
     top: 69%;
-    left: 60%;
+    left: 62%;
     transform: translate(-50%, -50%);
     color: white;
 }
-.CardA{
+
+.CardA {
     position: relative;
-    right: 6%;
-}
-.CardB{
-    position: relative;
-    right: 33%;
+    right: 14px;
 }
 
-.CardC{
+.CardB {
+    position: relative;
+    right: 26%;
+}
+
+.Cards {
     display: flex;
     justify-content: center;
-}
-/*.card-img{
-  width: 30%;
-}
-
-.text-bg-dark {
-  background-color: #f5d3ab;
-}
-
-.card-img-overlay p{
-  font-family: "Oswald", sans-serif;
-  padding-bottom: 30px;
-  font-size: 15px;
-  direction: initial;
-}*/
-
-.card-title{
-  font-family: "Ultra", serif;
-  font-weight: lighter;
-  font-style: normal;
-  font-size: 30px;
-  
-}
-
-/*.card-text h2{
-  font-family: "DM Sans", system-ui;
-  font-size: 20px;
-  font-style: normal;
-  padding-top: 20px;
- 
-}
-.card-img-overlay h3{
-  font-family: "Ultra", serif;
-  font-weight: lighter;
-  font-style: normal;
-  font-size: 30px;
-
+    margin-top: 1%;
 }
 
 
-.TextBaked {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  left: 20%;
+.cardC {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.BtnBaked {
-  position: relative;
-  right: -40%;
-  width: 8%;
-  border-color: black;
-  border-width: 2px;
-  color: black;
-  font-family: "Oswald", sans-serif;
-  font-size: 15px;
-  margin-top: 40px;
-  border-radius: 5px;
+.card-title {
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+
 }
-
-.A {
-  display: flex;
-  padding-bottom: 3%;
+.card-body p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    direction: initial;
 }
-
-.TextBaked p {
-  font-family: "Oswald", sans-serif;
-  padding-bottom: 30px;
-  font-size: 15px;
-  direction: initial;
+.card-text{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    right: 3%;
+    bottom: 14%;
 }
-
-.Item img {
-  width: 30%;
-}
-
-.Item1 {
-  display: flex;
-  margin-left: 20%;
-}
-
-.Item2 {
-  display: flex;
-  margin-left: 20%;
-}*/
-
 /*----------------------------------------*/
 
 /*--------------------FEAUTERS2--------------------*/
