@@ -1,0 +1,588 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Ultra&display=swap");
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css);
+* {
+  padding: 0%;
+  margin: 0%;
+}
+/*--------------------NAV--------------------*/
+header {
+  background-color: rgb(23, 27, 27);
+  padding-top: 30px;
+  align-items: flex-start;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  font-family: "DM Sans", system-ui;
+}
+.Contact {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  color: white;
+  background: none;
+  border-color: white;
+  border-width: 2px;
+  font-family: "DM Sans", system-ui;
+  font-weight: initial;
+}
+
+.Logo {
+  width: 150px;
+}
+/*----------------------------------------*/
+
+/*--------------------HERO--------------------*/
+.Hero {
+  background-color: rgb(23, 27, 27);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  align-items: center;
+}
+
+.Hero img {
+  width: 45%;
+}
+.TextHero {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.TextHero p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.TextHero h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.TextHero h2 {
+  font-family: "DM Sans", system-ui;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: initial;
+  padding-top: 20px;
+  
+}
+
+.BtnHero {
+  width: 25%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100px;
+  font-size: 15px;
+  background-color: #f5d3ab;
+  margin-top: 40px;
+  color: black;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+/*----------------------------------------*/
+
+/*--------------------ABOUT--------------------*/
+.About {
+  background-color: #f5d3ab;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.About img {
+  width: 30%;
+}
+.TextAbout {
+  display: flex;
+  flex-direction: column;
+}
+
+.TextAbout p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.TextAbout h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.TextAbout h2 {
+  font-family: "DM Sans", system-ui;
+  font-size: 30px;
+  font-style: normal;
+  padding-top: 20px;
+  color: #585357;
+}
+
+.BtnAbout {
+  width: 20%;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+/*----------------------------------------*/
+
+/*--------------------FEAUTERS--------------------*/
+.Feauters {
+  text-align: center;
+  background-color: #f5d3ab;
+  padding-top: 5%;
+}
+.Feauters p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+.Feauters h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 4%;
+}
+
+.Productos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.Productos img {
+  width: 30%;
+}
+
+.Fresco,
+.Natural,
+.Tasty {
+  background-color: white;
+  width: 30%;
+  margin: 0%;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-bottom: 3%;
+}
+
+/*----------------------------------------*/
+
+/*--------------------VIDEO--------------------*/
+.Video {
+  text-align: center;
+  background-color: #f5d3ab;
+  padding-top: 5%;
+}
+.Video p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.Video h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 4%;
+}
+
+/*----------------------------------------*/
+/*--------------------CATALOGO--------------------*/
+
+.card-img{
+  width: 30%;
+}
+.text-bg-dark {
+  background-color: #f5d3ab;
+}
+
+.card-img-overlay p{
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 15px;
+  direction: initial;
+}
+
+.card-title{
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 30px;
+  
+}
+
+.card-text h2{
+  font-family: "DM Sans", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  padding-top: 20px;
+ 
+}
+.card-img-overlay h3{
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 30px;
+
+}
+
+
+/*.TextBaked {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 20%;
+}
+
+.BtnBaked {
+  position: relative;
+  right: -40%;
+  width: 8%;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.A {
+  display: flex;
+  padding-bottom: 3%;
+}
+
+.TextBaked p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 15px;
+  direction: initial;
+}
+
+.Item img {
+  width: 30%;
+}
+
+.Item1 {
+  display: flex;
+  margin-left: 20%;
+}
+
+.Item2 {
+  display: flex;
+  margin-left: 20%;
+}*/
+
+/*----------------------------------------*/
+
+/*--------------------FEAUTERS2--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.Feauters2 {
+  background-color: #171b1b;
+}
+
+.TextF2 {
+  text-align: center;
+}
+
+.TextF2 p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: white;
+  padding-top: 5%;
+}
+
+.TextF2 h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 4%;
+  color: white;
+}
+
+.Cuadrados {
+  display: flex;
+  justify-content: center;
+}
+
+.Contacto,
+.Baking,
+.Delivery,
+.Delicioso {
+  background-color: white;
+  width: 30%;
+  margin: 0%;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-bottom: 3%;
+  border-right: 5px;
+}*/
+/*----------------------------------------*/
+
+/*--------------------FEAUTERS3--------------------*/
+
+.Feauters3 img {
+  width: 30%;
+}
+
+/*----------------------------------------*/
+
+/*--------------------BAKERS--------------------*/
+
+.Panaderos {
+  background-color: #f5d3ab;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.TextPanaderos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 12%;
+}
+
+.Panaderos p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: black;
+  padding-top: 5%;
+}
+
+.Panaderos h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 4%;
+}
+
+.Panaderos h2 {
+  font-family: "DM Sans", system-ui;
+  font-weight: initial;
+  color: #585357;
+}
+
+.Panadero img {
+  width: 40%;
+  position: relative;
+  left: 43%;
+}
+
+.BtnPanaderos {
+  background-color: #171b1b;
+  color: white;
+  width: 25%;
+  padding: 2%;
+  margin-top: 3%;
+}
+
+/*----------------------------------------*/
+
+
+/*--------------------CONTACTO--------------------*/
+.Contacto2 {
+  background-color: #f5d3ab;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.Img {
+  width: 40%;
+}
+
+.TextContacto p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: black;
+  padding-top: 5%;
+}
+
+.TextContacto h1 {
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 4%;
+}
+
+.TextContacto h2 {
+  font-family: "DM Sans", system-ui;
+  font-weight: initial;
+  color: #585357;
+
+}
+
+.Icons {
+  display: flex;
+
+}
+
+.Icons img {
+  width: 3%;
+  height: 3%;
+  position: relative;
+  top: 57px;
+}
+
+.IconsA {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.IconsB {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.IconsA h2 {
+  font-size: 20px;
+}
+
+.IconsB h2 {
+  font-size: 20px;
+}
+
+.ButtonContacto {
+  background-color: #171b1b;
+  color: white;
+  width: 44%;
+  padding: 2%;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+
+/*----------------------------------------*/
+
+/*--------------------FOOTER--------------------*/
+
+.Footer {
+  background-color: #171B1B;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+.Footer h1 {
+  width: 8%;
+  color: white;
+  font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.Lista1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+.Lista2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.Lista1 a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 50%;
+}
+
+.Lista2 a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 50%;
+}
+
+.DireccionF {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.DireccionF p {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+
+
+}
+
+.DireccionF h2 {
+  font-family: "DM Sans", system-ui;
+  font-weight: initial;
+
+}
+
+
+.IconosFooter img {
+  border-radius: 45%;
+  width: 13%;
+  padding: 9%;
+}
+
+.Final {
+  background-color: #171B1B;
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/*----------------------------------------*/
