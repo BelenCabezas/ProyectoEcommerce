@@ -209,6 +209,50 @@ header {
 
 /*----------------------------------------*/
 /*--------------------CATALOGO--------------------*/
+.TextBaked {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+  }
+  
+  .BtnBaked {
+    position: relative;
+    right: -34%;
+    width: 7%;
+    height: 50px;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    margin-top: 51px;
+    border-radius: 5px;
+    background-color: #f5d3ab;
+  }
+  
+  .A {
+    display: flex;
+    padding-bottom: 3%;
+  }
+  
+  .TextBaked p {
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 30px;
+    font-size: 15px;
+    direction: initial;
+  }
+  .TextBaked h1{
+    font-family: "Ultra", serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 4%;
+  }
+.Card1{
+    display: flex;
+    align-items: center;
+}
 .Item img{
 width: 30%;
 }
@@ -222,7 +266,7 @@ width: 30%;
 .TextCard1{
     position: absolute;
     top: 65%;
-    left: 48%;
+    left: 46%;
     transform: translate(-50%, -50%);
     color: white;
      display: flex;
@@ -243,20 +287,34 @@ width: 30%;
     position: relative;
     
 }
-.TextCard1 h3{
+.h3Card1{
     font-family: "Ultra", serif;
     font-weight: lighter;
     font-style: normal;
     font-size: 30px;
+    position: absolute;
+    top: 69%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
-.Card1{
-    display: flex;
-    
+.CardA{
+    position: relative;
+    right: 6%;
+}
+.CardB{
+    position: relative;
+    right: 33%;
 }
 
-.card-img{
+.CardC{
+    display: flex;
+    justify-content: center;
+}
+/*.card-img{
   width: 30%;
 }
+
 .text-bg-dark {
   background-color: #f5d3ab;
 }
@@ -266,7 +324,7 @@ width: 30%;
   padding-bottom: 30px;
   font-size: 15px;
   direction: initial;
-}
+}*/
 
 .card-title{
   font-family: "Ultra", serif;
@@ -276,7 +334,7 @@ width: 30%;
   
 }
 
-.card-text h2{
+/*.card-text h2{
   font-family: "DM Sans", system-ui;
   font-size: 20px;
   font-style: normal;
@@ -292,7 +350,7 @@ width: 30%;
 }
 
 
-/*.TextBaked {
+.TextBaked {
   display: flex;
   flex-direction: column;
   position: relative;
