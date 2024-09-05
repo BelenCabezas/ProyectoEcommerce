@@ -209,6 +209,50 @@ header {
 
 /*----------------------------------------*/
 /*--------------------CATALOGO--------------------*/
+.Item img{
+width: 30%;
+}
+
+.Item{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.TextCard1{
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: white;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.TextCard1 p{
+    font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  direction: initial;
+}
+
+.TextCard1 h2{
+    font-family: "DM Sans", system-ui;
+    font-size: 30px;
+    font-style: normal;
+    position: relative;
+    
+}
+.TextCard1 h3{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+}
+.Card1{
+    display: flex;
+    
+}
 
 .card-img{
   width: 30%;
