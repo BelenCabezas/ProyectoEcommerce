@@ -158,6 +158,7 @@ header {
   font-family: "Oswald", sans-serif;
   padding-bottom: 30px;
   font-size: 15px;
+  font-weight: 500;
 }
 
 .Feauters h1 {
@@ -168,26 +169,15 @@ header {
   padding-bottom: 4%;
 }
 
-.Productos {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
+img, svg {
+    vertical-align: middle;
+    width: 30%;
 }
-.Productos img {
-  width: 30%;
+.container{
+    background-color: white;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
-
-.Fresco,
-.Natural,
-.Tasty {
-  background-color: white;
-  width: 30%;
-  margin: 0%;
-  padding: 10px;
-  box-sizing: border-box;
-  padding-bottom: 3%;
-}
-
 /*----------------------------------------*/
 
 /*--------------------VIDEO--------------------*/
@@ -362,22 +352,6 @@ header {
 /*----------------------------------------*/
 
 /*--------------------FEAUTERS2--------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*.Feauters2 {
