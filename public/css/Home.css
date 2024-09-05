@@ -577,6 +577,10 @@ header {
   padding: 9%;
 }
 
+.hr{
+    background-color: #171B1B;
+    margin: 0%;
+}
 
 .Final {
   background-color: #171B1B;
