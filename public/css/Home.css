@@ -397,7 +397,7 @@ header {
     font-size: 20px;
     text-align: center;
 }
-.container h1{
+.h1Container{
     font-family: "Ultra", serif;
   font-weight: lighter;
   font-style: normal;
@@ -412,21 +412,52 @@ header {
     text-align: center;
 }
 
-
+.BgF2{
+    background-color: white;
+}
 /*----------------------------------------*/
 
 /*--------------------FEAUTERS3--------------------*/
-.Feauters3{
+.TextFeauters3{
     background-color: #171b1b;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.Feauters3 img {
+.TextFeauters3 img {
   width: 30%;
 
 }
 
-/*----------------------------------------*/
+.Feauters3{
+    display: flex;
+   
+}
+
+.container{
+    background-color: #171b1b;
+}
+
+.h3Fa{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    direction: initial;
+}
+.pFa{
+    font-family: "Oswald", sans-serif;
+    font-size: 10px;
+    direction: initial;
+}
+
+.TitulFa{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 25px;
+  
+}
+
+/*---------------- 
+<div class="FA">-----------------------*/
 
 /*--------------------BAKERS--------------------*/
 
