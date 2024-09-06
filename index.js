@@ -16,3 +16,7 @@ app.get('/',(req,res)=>{
 app.listen(4500,()=>{ 
     
  })
+
+ app.get('/Recetas',(req,res)=>{
+    res.render('Recetas')
+})

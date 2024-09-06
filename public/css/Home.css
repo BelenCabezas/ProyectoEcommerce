@@ -10,44 +10,7 @@ body {
     width: 100%;
 }
 
-/*--------------------NAV--------------------*/
-header {
-    background-color: rgb(23, 27, 27);
-    padding-top: 30px;
-    align-items: flex-start;
-}
 
-.Header {
-    display: flex;
-    justify-content: space-around;
-}
-
-.Nav a {
-    text-decoration: none;
-    color: white;
-    padding: 20px 40px;
-    font-family: "DM Sans", system-ui;
-}
-
-.Contact {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 5px;
-    color: white;
-    background: none;
-    border-color: white;
-    border-width: 2px;
-    font-family: "DM Sans", system-ui;
-    font-weight: initial;
-}
-
-.Logo {
-    width: 150px;
-}
-
-/*----------------------------------------*/
 
 /*--------------------HERO--------------------*/
 .Hero {
