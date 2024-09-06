@@ -345,7 +345,7 @@ header {
     font-size: 30px;
 
 }
-.card-body p{
+.Pcatalogo{
     font-family: "Oswald", sans-serif;
     font-size: 20px;
     direction: initial;
@@ -391,7 +391,7 @@ header {
   color: white;
 }
 
-.container p{
+.Pf2{
     font-family: "Oswald", sans-serif;
     padding-bottom: 30px;
     font-size: 20px;
@@ -419,13 +419,120 @@ header {
 
 /*--------------------FEAUTERS3--------------------*/
 .TextFeauters3{
-    background-color: #171b1b;
+  
   padding-top: 5%;
   padding-bottom: 5%;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
 }
-.TextFeauters3 img {
+.TextFeauters3 p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    direction: initial;
+}
+.TextFeauters3 h1{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 40px;
+}
+.Feauters3{
+    background-color: #171b1b;
+}
+/*.TextFeauters3 img {
   width: 30%;
 
+}*/
+.B{
+    display: flex;
+    justify-content: space-around;
+}
+
+.TextBaked {
+    
+    position: relative;
+    left: 26%;
+   
+}
+.BgF3{
+    background-color: #171b1b;
+}
+.AAA{
+    position:relative;
+    left: 24%;
+    display: flex;
+    
+}
+
+.BBB{
+    position: relative;
+   left: 23%;
+    display: flex;
+
+    align-content: center;
+    align-items: center;
+}
+.CCC img{
+width: 100%;
+}
+
+.CARDa{
+    position: relative;
+    left: 22%;
+    display: flex;
+    align-content: center;
+   
+}
+.CARDa p{
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    direction: initial;
+    background-color: #f5d3ab;
+    width: 15%;
+    position: relative;
+    left: 78%;
+    top: 3%;
+}
+
+.CARDa h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    direction: initial;
+    padding-top: 7%;
+}
+
+.CARDa h2{
+    font-family: "DM Sans", system-ui;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+}
+.CARDa h1{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.BtnCard{
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    direction: initial;
+    position: relative;
+    left: 82%;
+    width: 14%;
+    border-style: none;
+}
+
+.BtnCardB{
+    border-style: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    direction: initial;
+    position: relative;
+    left: 73%;
 }
 
 .Feauters3{
@@ -433,9 +540,7 @@ header {
    
 }
 
-.container{
-    background-color: #171b1b;
-}
+
 
 .h3Fa{
     font-family: "Oswald", sans-serif;
@@ -444,8 +549,13 @@ header {
 }
 .pFa{
     font-family: "Oswald", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     direction: initial;
+    background-color: #f5d3ab;
+    width: 47%;
+    position: relative;
+    left: 51%;
+    top: 3%;
 }
 
 .TitulFa{
@@ -453,7 +563,7 @@ header {
     font-weight: lighter;
     font-style: normal;
     font-size: 25px;
-  
+    padding-top: 6%;
 }
 
 /*---------------- 
