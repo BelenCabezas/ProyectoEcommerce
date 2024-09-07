@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Ultra&display=swap");
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css);
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+}
+
+
+/*--------------------PRODUCTOS--------------------*/
+main{
+    background-color: #f5d3ab;
+}
+
+.Titulo{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 70px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.FiltroLista{
+    display: flex;
+    flex-direction: column;
+}
+
+.Filtro{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.FiltroLista h2{
+    font-family: "DM Sans", system-ui;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: initial;
+    padding-top: 20px;
+}
+.FiltroLista p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+
+.card-title{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+}
+.card-text{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+/*.container h2{
+    font-family: "DM Sans", system-ui;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: initial;
+    padding-top: 20px;
+}*/
+
+.Productos3{
+    padding-bottom: 5%;
+}

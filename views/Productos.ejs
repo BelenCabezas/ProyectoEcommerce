@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/Productos.css">
     <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Ultra&display=swap"
     rel="stylesheet" />
@@ -13,115 +14,143 @@
     <%-include('partials/nav')%>
 
     <main>
-        <h1>Productos</h1>
-        <div class="Filtro lista">
-         <h2>Categoria</h1>
-         <a href=""><p>Tortas</p></a>
-         <a href=""> <p>Pasteleria</p> </a>
-         <a href="">  <p>Pan</p> </a>
+        <h1 class="Titulo">Productos</h1>
+ 
+        <div class="Todo"> <div class="Filtro">
+        <div class="FiltroLista">
+            <h2>Categoria</h1>
+                <a href="">
+                    <p>Tortas</p>
+                </a>
+                <a href="">
+                    <p>Pasteleria</p>
+                </a>
+                <a href="">
+                    <p>Pan</p>
+                </a>
         </div>
-
+   
         <h2>Filtro</h2>
-        <p>Precio</p>
-
+        <p>Precio</p></div>
+    
         <div class="Productos1">
             <div class="container">
-          
-                    <div class="row">
-                        <div class="col-sm">
-        
-                            <div class="CarrotCake">
-                                <img src="/img-productos/CarrotCake.jpg" alt="Carrot cake" />
-                                <h1>Carrot cake porción</h1>
-                                <h2>$3560</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Cinnamon">
-                                <img src="/img-productos/CinnamonRoll.jpg" alt="Cinnamon roll" />
-                                <h1>Cinnamon roll 2 unidades</h1>
-                                <h2>$1520</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Cookies">
-                                <img src="/img-productos/Cookies.jpg" alt="Cookies" />
-                                <h1>Cookies de chocolate 5 unidades</h1>
-                                <h2>$4590</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Croisant">
-                                <img src="/img-productos/Croisant.jpg" alt="Croisant" />
-                                <h1>Croisants por 3 unidades</h1>
-                                <h2>$3600</h2>
+    
+                <div class="row">
+                    <div class="col-sm">
+    
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/CarrotCake.jpg" alt="Carrot cake" />
+                            <div class="card-body">
+                                <h1 class="card-title">Carrot cake porción</h1>
+                                <p class="card-text">$3560</p>
+    
                             </div>
                         </div>
                     </div>
-             
+    
+                    <div class="col-sm">
+    
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/CinnamonRoll.jpg" alt="Cinnamon roll" />
+                            <div class="card-body">
+                                <h1 class="card-title">Cinnamon roll 2 unidades</h1>
+                                <p class="card-text">$1520</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+    
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/Cookies.jpg" alt="Cookies" />
+                            <div class="card-body">
+                                <h1 class="card-title">Cookies de chocolate 5 unidades</h1>
+                                <p class="card-text">$4590</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img-productos/Croisant.jpg" alt="Croisant" />
+                        <div class="card-body">
+                            <h1 class="card-title">Croisants por 3 unidades</h1>
+                            <p class="card-text">$3600</p>
+    
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
         <div class="Productos2">
             <div class="container">
-            
-                    <div class="row">
-                        <div class="col-sm">
-        
-                            <div class="Cupcake">
-                                <img src="/img-productos/CupCake.jpg" alt="Cupcake" />
-                                <h1>Cupcake por 5 unidades</h1>
-                                <h2>$4450</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Donuts">
-                                <img src="/img-productos/Donuts.jpg" alt="Donuts" />
-                                <h1>Donuts por 6 unidades</h1>
-                                <h2>$3530</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Macarons">
-                                <img src="/img-productos/Cookies.jpg" alt="Macarons" />
-                                <h1>Caja de macarons 6 unidades</h1>
-                                <h2>$4980</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Pan integral">
-                                <img src="/img-productos/PanIntegral.jpg" alt="Pan integral" />
-                                <h1>Pan integral por kilo</h1>
-                                <h2>$1420</h2>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/CupCake.jpg" alt="Cupcake" />
+                            <div class="card-body">
+                                <h1 class="card-title">Cupcake por 5 unidades</h1>
+                                <p class="card-text">$4450</p>
                             </div>
                         </div>
                     </div>
-                
+                    <div class="col-sm">
+    
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/Donuts.jpg" alt="Donuts" />
+                            <div class="card-body">
+                                <h1 class="card-title">Donuts por 6 unidades</h1>
+                                <p class="card-text">$3530</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/Cookies.jpg" alt="Macarons" />
+                            <div class="card-body">
+                                <h1 class="card-title">Caja de macarons 6 unidades</h1>
+                                <p class="card-text">$4980</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/PanIntegral.jpg" alt="Pan integral" />
+                            <div class="card-body">
+                                <h1 class="card-title">Pan integral por kilo</h1>
+                                <p class="card-text">$1420</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
         <div class="Productos3">
             <div class="container">
-                    <div class="row">
-                        <div class="col-sm">
-        
-                            <div class="Pastafrola">
-                                <img src="/public/img-productos/Pastafrola.jpg" alt="Pastafrola" />
-                                <h1>Pastafrola tarta mediana</h1>
-                                <h2>$3210</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="Rogel">
-                                <img src="/public/img-productos/Rogel.jpg" alt="Rogel" />
-                                <h1>Rogel tarta chica</h1>
-                                <h2>$2640</h2>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/Pastafrola.jpg" alt="Pastafrola" />
+                            <div class="card-body">
+                                <h1 class="card-title">Pastafrola tarta mediana</h1>
+                                <p class="card-text">$3210</p>
                             </div>
                         </div>
                     </div>
-                
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img-productos/Rogel.jpg" alt="Rogel" />
+                            <div class="card-body">
+                                <h1 class="card-title">Rogel tarta chica</h1>
+                                <p class="card-text">$2640</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
     </main>
 
     <%-include('partials/footer')%>
