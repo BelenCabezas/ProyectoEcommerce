@@ -11,12 +11,12 @@ body {
 }
 
 
-/*--------------------PRODUCTOS--------------------*/
-main{
+/*--------------------TMAIN Y TITULO--------------------*/
+main {
     background-color: #f5d3ab;
 }
 
-.Titulo{
+.Titulo {
     font-family: "Ultra", serif;
     font-weight: lighter;
     font-style: normal;
@@ -25,50 +25,114 @@ main{
     display: flex;
     justify-content: center;
 }
+/*----------------------------------------*/
 
-.FiltroLista{
-    display: flex;
-    flex-direction: column;
+/*--------------------FILTRO--------------------*/
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
 }
 
-.Filtro{
-    display: flex;
-    flex-direction: column;
+.sidebar h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
 
+.sidebar ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
 
-.FiltroLista h2{
-    font-family: "DM Sans", system-ui;
-    font-size: 30px;
+.price-filter {
+    margin-top: 20px;
+}
+
+.price-filter label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.price-filter input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.FiltroCompleto {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    padding: 3%;
+}
+
+.FiltroCompleto h1 {
+    font-family: "Ultra", serif;
+    font-weight: lighter;
     font-style: normal;
-    font-weight: initial;
-    padding-top: 20px;
+    font-size: 30px;
 }
-.FiltroLista p{
+
+.FiltroCompleto a {
     font-family: "Oswald", sans-serif;
     font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
 
+.FiltroCompleto {
+    background-color: white;
+}
+/*----------------------------------------*/
 
-.card-title{
+/*--------------------PRODUCTOS--------------------*/
+
+.Btn {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    direction: initial;
+    position: relative;
+    left: 72%;
+    width: 27%;
+    border-style: none;
+}
+
+.Btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-title {
     font-family: "Ultra", serif;
     font-weight: lighter;
     font-style: normal;
     font-size: 20px;
 }
-.card-text{
+
+.card-text {
     font-family: "Oswald", sans-serif;
     font-size: 20px;
 }
-/*.container h2{
-    font-family: "DM Sans", system-ui;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: initial;
-    padding-top: 20px;
-}*/
 
-.Productos3{
+.Productos1 {
+    padding-bottom: 3%;
+}
+
+.Productos2 {
+    padding-bottom: 3%;
+}
+
+.Productos3 {
     padding-bottom: 5%;
 }
+/*----------------------------------------*/

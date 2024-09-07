@@ -1,158 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/Productos.css">
     <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Ultra&display=swap"
-    rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Ultra&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
 
     <%-include('partials/nav')%>
 
-    <main>
-        <h1 class="Titulo">Productos</h1>
- 
-        <div class="Todo"> <div class="Filtro">
-        <div class="FiltroLista">
-            <h2>Categoria</h1>
-                <a href="">
-                    <p>Tortas</p>
-                </a>
-                <a href="">
-                    <p>Pasteleria</p>
-                </a>
-                <a href="">
-                    <p>Pan</p>
-                </a>
-        </div>
-   
-        <h2>Filtro</h2>
-        <p>Precio</p></div>
-    
-        <div class="Productos1">
-            <div class="container">
-    
-                <div class="row">
-                    <div class="col-sm">
-    
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/CarrotCake.jpg" alt="Carrot cake" />
-                            <div class="card-body">
-                                <h1 class="card-title">Carrot cake porción</h1>
-                                <p class="card-text">$3560</p>
-    
+        <main>
+
+            <h1 class="Titulo">Productos</h1>
+
+            <div class="sidebar">
+                <div class="FiltroCompleto">
+                    <div class="FiltroLista">
+                        <h1>Categorias</h1>
+                        <a href="">
+                            <p>Tortas</p>
+                        </a>
+                        <a href="">
+                            <p>Pasteleria</p>
+                        </a>
+                        <a href="">
+                            <p>Pan</p>
+                        </a>
+                    </div>
+
+                    <h1>Precio</h1>
+                    <div class="price-filter">
+                        <label>Desde: <input type="number" value="799"></label>
+                        <label>Hasta: <input type="number" value="39999"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Productos1">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/CarrotCake.jpg" alt="Carrot cake" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Carrot cake</h1>
+                                    <p class="card-text">$3560</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="col-sm">
-    
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/CinnamonRoll.jpg" alt="Cinnamon roll" />
-                            <div class="card-body">
-                                <h1 class="card-title">Cinnamon roll 2 unidades</h1>
-                                <p class="card-text">$1520</p>
-    
+
+                        <div class="col-sm">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/CinnamonRoll.jpg" alt="Cinnamon roll" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Cinnamon roll</h1>
+                                    <p class="card-text">$1520</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm">
-    
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/Cookies.jpg" alt="Cookies" />
-                            <div class="card-body">
-                                <h1 class="card-title">Cookies de chocolate 5 unidades</h1>
-                                <p class="card-text">$4590</p>
-    
+                        <div class="col-sm">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/Cookies.jpg" alt="Cookies" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Cookies</h1>
+                                    <p class="card-text">$4590</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="/img-productos/Croisant.jpg" alt="Croisant" />
-                        <div class="card-body">
-                            <h1 class="card-title">Croisants por 3 unidades</h1>
-                            <p class="card-text">$3600</p>
-    
+                        <div class="card" style="width:18rem;padding:0%">
+                            <img src="/img-productos/Croisants.jpg" alt="Croisant" />
+                            <div class="card-body">
+                                <h1 class="card-title">Croisant</h1>
+                                <p class="card-text">$4500</p>
+                                <button class="Btn"><a href="">Ve más ⭢</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="Productos2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/CupCake.jpg" alt="Cupcake" />
-                            <div class="card-body">
-                                <h1 class="card-title">Cupcake por 5 unidades</h1>
-                                <p class="card-text">$4450</p>
+            <div class="Productos2">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/Cupcakes.jpg" alt="Cupcake" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Cupcake</h1>
+                                    <p class="card-text">$4450</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm">
-    
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/Donuts.jpg" alt="Donuts" />
-                            <div class="card-body">
-                                <h1 class="card-title">Donuts por 6 unidades</h1>
-                                <p class="card-text">$3530</p>
-    
+
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/Donuts.jpg" alt="Donuts" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Donuts</h1>
+                                    <p class="card-text">$3530</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/Cookies.jpg" alt="Macarons" />
-                            <div class="card-body">
-                                <h1 class="card-title">Caja de macarons 6 unidades</h1>
-                                <p class="card-text">$4980</p>
+                        <div class="col-sm">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/Macarons.jpg" alt="Macarons" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Caja de macarons</h1>
+                                    <p class="card-text">$4980</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width:18rem;padding:0%">
                             <img src="/img-productos/PanIntegral.jpg" alt="Pan integral" />
                             <div class="card-body">
-                                <h1 class="card-title">Pan integral por kilo</h1>
+                                <h1 class="card-title">Pan integral</h1>
                                 <p class="card-text">$1420</p>
+                                <button class="Btn"><a href="">Ve más ⭢</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="Productos3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/Pastafrola.jpg" alt="Pastafrola" />
-                            <div class="card-body">
-                                <h1 class="card-title">Pastafrola tarta mediana</h1>
-                                <p class="card-text">$3210</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="card" style="width: 18rem;">
-                            <img src="/img-productos/Rogel.jpg" alt="Rogel" />
-                            <div class="card-body">
-                                <h1 class="card-title">Rogel tarta chica</h1>
-                                <p class="card-text">$2640</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </main>
 
-    <%-include('partials/footer')%>
+            <div class="Productos3">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/Pastafrola.jpg" alt="Pastafrola" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Pastafrola</h1>
+                                    <p class="card-text">$3210</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <img src="/img-productos/Rogel.jpg" alt="Rogel" />
+                                <div class="card-body">
+                                    <h1 class="card-title">Rogel</h1>
+                                    <p class="card-text">$2640</p>
+                                    <button class="Btn"><a href="">Ve más ⭢</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <%-include('partials/footer')%>
 </body>
+
 </html>
