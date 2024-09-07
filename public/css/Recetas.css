@@ -42,9 +42,25 @@ main {
 
 .item {
     padding: 20px;
-   
     text-align: center;
-    
+    background: linear-gradient(to bottom, transparent 40%, white);
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%; 
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+.item h1{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 6%;
+}
+
+.item a{
+    color: black;
+    text-decoration: none;
 }
 
 .Btn {
