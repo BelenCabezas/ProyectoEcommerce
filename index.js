@@ -16,7 +16,12 @@ app.get('/',(req,res)=>{
 app.listen(4500,()=>{ 
     
  })
-
+//Ruta Recetas
  app.get('/Recetas',(req,res)=>{
     res.render('Recetas')
+})
+
+//Ruta Productos
+app.get('/Productos',(req,res)=>{
+    res.render('Productos')
 })

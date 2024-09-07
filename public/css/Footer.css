@@ -78,8 +78,8 @@ body {
 
 .IconosFooter img {
     border-radius: 50%;
-    /* width: 13%;*/
-    padding: 9%;
+     width: 13%;
+     margin: 9%;
 }
 
 .hr {
