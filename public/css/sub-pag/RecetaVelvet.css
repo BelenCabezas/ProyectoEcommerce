@@ -10,7 +10,9 @@
 body {
     width: 100%;
 }
-/*--------------------MAIN Y TITULO--------------------*/
+
+/*--------------------MAIN,HR Y CONTENEDOR PADRE-------------------*/
+
 main {
     background-color: #f5d3ab;
     padding-top: 5%;
@@ -28,6 +30,10 @@ main {
   justify-content: center; 
  
 }
+
+/*----------------------------------------*/ 
+
+/*--------------------TEXTO Y LISTA--------------------*/
 
 h1 {
     font-family: "Ultra", serif;
@@ -50,18 +56,6 @@ li{
     padding: 5px;
 }
 
-.Red{
-    width: 50%;
-    border-top-right-radius: 30%;
-    border-top-left-radius: 30%;
-}
-
-.MoverImg{
-    padding-left: 5%;
-    position: relative;
-    left: 8%;
-}
-
 .Texto{
     padding-left: 5%; 
 }
@@ -72,6 +66,22 @@ li{
     border-radius: 8px;
     position: relative;
     right: 14%;
+}
+
+/*----------------------------------------*/ 
+
+/*--------------------MEDIA--------------------*/
+
+.Red{
+    width: 50%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.MoverImg{
+    padding-left: 5%;
+    position: relative;
+    left: 8%;
 }
 
 .TextVideo{
@@ -88,3 +98,5 @@ li{
     display: flex;
     justify-content: center;
 }
+
+/*----------------------------------------*/ 

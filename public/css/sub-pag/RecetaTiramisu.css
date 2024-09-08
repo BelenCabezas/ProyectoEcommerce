@@ -33,7 +33,6 @@ main {
 /*----------------------------------------*/ 
 
 /*--------------------TEXTO Y LISTA--------------------*/
-
 h1 {
     font-family: "Ultra", serif;
     font-weight: lighter;
@@ -58,9 +57,7 @@ li{
 .Texto{
     padding-left: 5%; 
 }
-.TextoA {
-    padding-left:3% ;
-}
+
 .TextoCompleto{
     padding-right: 5%;
     background-color: #fff;
@@ -72,6 +69,7 @@ li{
 /*----------------------------------------*/ 
 
 /*--------------------MEDIA--------------------*/
+
 .Red{
     width: 50%;
     border-top-right-radius: 30%;
