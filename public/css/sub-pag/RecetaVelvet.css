@@ -73,3 +73,18 @@ li{
     position: relative;
     right: 14%;
 }
+
+.TextVideo{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 50px;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.A{
+    display: flex;
+    justify-content: center;
+}
