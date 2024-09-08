@@ -304,6 +304,7 @@ body {
 .CardA {
     position: relative;
     right: 14px;
+
 }
 
 .CardB {
@@ -503,13 +504,14 @@ body {
     font-size: 20px;
     direction: initial;
     padding-top: 7%;
+    padding-bottom: 5%;
 }
 
 .CARDa h2 {
     font-family: "DM Sans", system-ui;
     font-size: 30px;
     font-style: normal;
-    text-align: center;
+    text-align: left;
 }
 
 .CARDa h1 {
@@ -517,6 +519,7 @@ body {
     font-weight: lighter;
     font-style: normal;
     font-size: 30px;
+    padding-bottom: 3%;
 }
 
 .BtnCard {

@@ -20,6 +20,10 @@ app.listen(4500,()=>{
  app.get('/Recetas',(req,res)=>{
     res.render('Recetas')
 })
+//Sub pagina de receta -> red velvet
+app.get('/RecetaVelvet',(req,res)=>{
+    res.render('RecetaVelvet')
+})
 
 //Ruta Productos
 app.get('/Productos',(req,res)=>{
