@@ -12,30 +12,64 @@ body {
 }
 /*--------------------MAIN Y TITULO--------------------*/
 main {
-    background-color:#171B1b ;
+    background-color: #f5d3ab;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
+.Hr {
+    width: 100%;
+    margin-top: 4%;
+    border: 1px solid black;
+}
+
 .ContenedorPadre{
     display: flex;
+  justify-content: center; 
+ 
 }
 
 h1 {
-    margin: 0;
-    color: #333;
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 6%;
 }
 
+h2{
+    font-family: "DM Sans", system-ui;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: initial;
+}
+
+li{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.Red{
+    width: 50%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+.MoverImg{
+    padding-left: 5%;
+    position: relative;
+    left: 8%;
+}
 
 .Texto{
+    padding-left: 5%; 
+}
+
+.TextoCompleto{
+    padding-right: 5%;
     background-color: #fff;
     border-radius: 8px;
-    
+    position: relative;
+    right: 14%;
 }
-
-h2 {
-    color: #ff6600;
-}
-
-img{
-    display: block;
-    width: 30%;
-}
-
