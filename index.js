@@ -16,6 +16,8 @@ app.get('/',(req,res)=>{
 app.listen(4500,()=>{ 
     
  })
+
+/*--------------------RUTAS--------------------*/
 //Ruta Recetas
  app.get('/Recetas',(req,res)=>{
     res.render('Recetas')
@@ -24,8 +26,9 @@ app.listen(4500,()=>{
 app.get('/Productos',(req,res)=>{
     res.render('Productos')
 })
+/*----------------------------------------*/ 
 
-/**********SUB PAGINAS**********/
+/*--------------------SUB PAGINA--------------------*/
 
 //Sub pagina de receta -> red velvet
 app.get('/RecetaVelvet',(req,res)=>{
@@ -56,3 +59,4 @@ app.get('/RecetaTiramisu',(req,res)=>{
 app.get('/RecetaMacarons',(req,res)=>{
     res.render('RecetaMacarons')
 })
+/*----------------------------------------*/ 
