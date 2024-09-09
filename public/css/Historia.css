@@ -17,8 +17,6 @@ main {
     padding-bottom: 5%;
 }
 .TyC{
-  /* display: flex;
-align-items: center;*/
 padding: 20px; 
 }
 
@@ -42,30 +40,111 @@ padding: 20px;
     padding-top: 6%;
 }
 
-.Historia img{
-    width: 50%;
-}
+
+/*----------------------------------------*/ 
+
+/*--------------------PRIMER TEXTO--------------------*/
 
 .TextoCompletoA{
    text-align: center;
+}
 
+.Text1{
+    padding-bottom: 2%;
 }
 .TextoCompletoA h2{
     font-family: "Ultra", serif;
     font-weight: lighter;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
 }
 
-.TextColor{
-    color: #C5D8BD;
+.TextoCompletoA p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: white;
 }
 
+/*----------------------------------------*/ 
+
+/*--------------------TEXTO HISTORIA--------------------*/
 .resaltado{
     font-family: "Ultra", serif;
     font-weight: lighter;
     font-style: normal;
-    font-size: 30px;
-    color: #C5D8BD;
+    font-size: 35px;
+    color: #9EAD8E;
+}
+.Historia{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.TextImg{
+    display: flex;
+    align-items: center;
+}
+.TextImg img{
+    width: 50%;
+    position: relative;
+    left: 2%;
+}
+.TextoCompletoB{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 1%;
+}
+
+.TextoCompletoB h1{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+
+.TextoCompletoB p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/*----------------------------------------*/
+
+/*--------------------MISION Y VISION--------------------*/
+
+.MyV{
+    background-color:#9EAD8E ;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.MyV h1{
+    font-family: "Ultra", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.MyV p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    display: flex;
+    text-align: webkit-center;
+}
+
+.Mision{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+}
+
+
+.Vision{
+    display: flex;
+    flex-direction: column;
 }
