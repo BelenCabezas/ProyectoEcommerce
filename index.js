@@ -26,6 +26,12 @@ app.listen(4500,()=>{
 app.get('/Productos',(req,res)=>{
     res.render('Productos')
 })
+
+//Ruta Productos
+app.get('/Historia',(req,res)=>{
+    res.render('Historia')
+})
+
 /*----------------------------------------*/ 
 
 /*--------------------SUB PAGINA--------------------*/
