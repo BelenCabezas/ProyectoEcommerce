@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/Contacto.css">
+</head>
+<body>
+    <%-include('partials/nav')%>
+    <main>
+        <h1>Contactanos</h1>
+        <h2>Panaderia y confiteria Bakery</h2>
+        <div class="Redes">
+            <div class="Direccion"> 
+                <img src="/icons/chef.png" alt="Panadero"> 
+                <div class="Text">
+                <h1>Direccion</h1>
+                <p>Av. Scalabrini Ortiz 194</p>
+                <p>Ciudad Autonoma de Buenos Aires</p>
+              </div>
+            </div>
+
+            <div class="Telefono">
+                <img src="" alt="">
+                <div class="Texto">
+                    <h1>Telefono</h1>
+                    <p>+5411 4711-5820</p>
+                </div>
+            </div>
+            <div class="Email">
+                <img src="" alt="">
+                <div class="Texto">
+                    <p>info@BsasBakery.com</p>
+                </div>
+            </div>
+            <div class="Wsp">
+                <img src="" alt="">
+                <div class="Texto">
+                    <p>+54 9 115834-0617</p>
+                </div>
+            </div> 
+        </div>
+
+        <h1>Dejanos un mensaje</h1>
+        <img src="/icons/chef.png" alt="Panadero"> 
+        <div class="Formulario">
+            <form action="">
+                <div class="Form2">
+                <label for="Nombre">Tu nombre</label>
+                <input type="text">
+
+                <label for="Email">Tu email</label>
+                <input type="text"></div>
+
+                <label for="Razon">Razon por la que nos contactas</label>
+                <input type="text">
+
+                <label for="Texto">Dejanos un comentario</label>
+                <textarea name="Mensaje" id=""></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </main>
+    <%-include('partials/footer')%>
+</body>
+</html>

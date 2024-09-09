@@ -18,6 +18,7 @@ app.listen(4500,()=>{
  })
 
 /*--------------------RUTAS--------------------*/
+
 //Ruta Recetas
  app.get('/Recetas',(req,res)=>{
     res.render('Recetas')
@@ -27,9 +28,13 @@ app.get('/Productos',(req,res)=>{
     res.render('Productos')
 })
 
-//Ruta Productos
+//Ruta Historia
 app.get('/Historia',(req,res)=>{
     res.render('Historia')
+})
+//Ruta Contacto
+app.get('/Contacto',(req,res)=>{
+    res.render('Contacto')
 })
 
 /*----------------------------------------*/ 
