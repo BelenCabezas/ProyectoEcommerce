@@ -66,7 +66,7 @@ app.get('/RecetaTiramisu',(req,res)=>{
     res.render('RecetaTiramisu')
 })
 
-//Sub pagina de receta -> tiramisu
+//Sub pagina de receta -> macarons
 app.get('/RecetaMacarons',(req,res)=>{
     res.render('RecetaMacarons')
 })
