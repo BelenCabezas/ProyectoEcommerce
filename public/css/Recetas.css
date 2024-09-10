@@ -63,26 +63,4 @@ main {
     text-decoration: none;
 }
 
-.Btn {
-    font-family: "Oswald", sans-serif;
-    font-size: 15px;
-    direction: initial;
-    border-style: none;
-    width: 9%;
-    padding: 1%;
-    background-color: #171b1b;
-    border-width: -1px;
-    border-radius: 5px;
-}
-.Centro{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
-}
-
-.Btn a {
-    text-decoration: none;
-    color: white;
-}
-
 /*----------------------------------------*/

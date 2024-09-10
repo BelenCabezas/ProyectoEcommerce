@@ -1,30 +1,37 @@
 const express=require('express')
 const app=express()
-//traigo la conexion de la base de datos al index.js
-const connectDB = require('./config/db');
+
 //dotenv
 require('dotenv').config();
+
 //colores para los mensajes de la consola
 const colors=require('colors')
+
 //Motor de plantillas 
 app.set('view engine','ejs')
 
 //Servicios estaticos 
 app.use(express.static('public'))
 
+//Conexion server
+app.listen(4500,()=>{ 
+    })
+
+/*--------------------BASE DE DATOS--------------------*/
+    
+//Llamo a la funcion para conectar la base de datos
+ //connectDB()
+
+ //Traigo la conexion de la base de datos al index.js
+//const connectDB = require('./config/db');
+
+
+/*--------------------RUTAS--------------------*/
+
 //Ruta inicial
 app.get('/',(req,res)=>{
     res.render('Home')
 })
-
-//CONEXION SERVER
-app.listen(4500,()=>{ 
-    
- })
- //llamo a la funcion para conectar la base de datos
- connectDB()
-
-/*--------------------RUTAS--------------------*/
 
 //Ruta Recetas
  app.get('/Recetas',(req,res)=>{

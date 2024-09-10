@@ -136,3 +136,9 @@ main {
     padding-bottom: 5%;
 }
 /*----------------------------------------*/
+
+.Todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
