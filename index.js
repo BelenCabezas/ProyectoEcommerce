@@ -51,6 +51,17 @@ app.get('/Contacto',(req,res)=>{
     res.render('Contacto')
 })
 
+//ruta registro
+app.get('/registro',(req,res) =>{
+    res.render('registro')
+
+})
+
+//ruta login 
+app.get('/login',(req,res) =>{
+    res.render('login')
+})
+
 /*----------------------------------------*/ 
 
 /*--------------------SUB PAGINA--------------------*/

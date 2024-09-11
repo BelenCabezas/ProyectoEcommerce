@@ -4,6 +4,6 @@ const productosSchema =new mongoose.Schema({
 
     // falta terminar de armar el esquema de la base de datos de productos.
 
-    d
+    
 
 })
