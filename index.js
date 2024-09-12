@@ -51,15 +51,15 @@ app.get('/Contacto',(req,res)=>{
     res.render('Contacto')
 })
 
-//ruta registro
-app.get('/registro',(req,res) =>{
-    res.render('registro')
+//Ruta Registro
+app.get('/Registro',(req,res) =>{
+    res.render('Registro')
 
 })
 
-//ruta login 
-app.get('/login',(req,res) =>{
-    res.render('login')
+//Ruta Login 
+app.get('/Login',(req,res) =>{
+    res.render('Login')
 })
 
 /*----------------------------------------*/ 
