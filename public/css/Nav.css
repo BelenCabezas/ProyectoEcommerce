@@ -15,11 +15,13 @@ header {
     background-color: rgb(23, 27, 27);
     padding-top: 30px;
     align-items: flex-start;
+    
 }
 
 .Header {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
 }
 
 .Nav a {

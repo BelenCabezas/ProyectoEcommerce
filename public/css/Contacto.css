@@ -9,6 +9,10 @@
 
 body {
     width: 100%;
+   background-image: url(/img/BgC.jpg);
+   background-size: cover;
+  background-size: 100% 100%;
+  background-position: center; 
 }
 
 /*----------------------------------------*/
@@ -16,7 +20,6 @@ body {
 /*--------------------MAIN Y TITULO-------------------*/
 
 main {
-    background-color: #f5d3ab;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -115,45 +118,46 @@ main {
 .Formulario{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 3%;
 }
 
-.Form2 label{
-     margin: auto;
-     font-family: "DM Sans", system-ui;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: initial;
+.form-group {
+    margin-bottom: 20px;
 }
 
-.FormColumn{
-    display: flex;
-    flex-direction: column;
-}
-.FormColumn label{
-    font-family: "DM Sans", system-ui;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: initial;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
 }
 
-/*.Formulario label{
-        font-family: "DM Sans", system-ui;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: initial;
-        margin-top: 2%;
-        margin-bottom: 2%;
-}
-*/
-.Formulario input{
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    
 }
 
-.Formulario textarea{
+.flex{
+    display: flex;
+}
+
+.button{
+    background-color: #171b1b;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
