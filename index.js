@@ -62,6 +62,11 @@ app.get('/Login',(req,res) =>{
     res.render('Login')
 })
 
+//Ruta Blog 
+app.get('/Blog',(req,res) =>{
+    res.render('Blog')
+})
+
 /*----------------------------------------*/ 
 
 /*--------------------SUB PAGINA--------------------*/
