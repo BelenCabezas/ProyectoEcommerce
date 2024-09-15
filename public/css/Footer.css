@@ -65,21 +65,18 @@ body {
     font-family: "Oswald", sans-serif;
     padding-bottom: 30px;
     font-size: 20px;
-
-
 }
 
 .DireccionF h2 {
     font-family: "DM Sans", system-ui;
     font-weight: initial;
-
 }
 
 
 .IconosFooter img {
     border-radius: 50%;
-     width: 13%;
-     margin: 9%;
+    width: 13%;
+    margin: 9%;
 }
 
 .hr {
