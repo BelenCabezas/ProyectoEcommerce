@@ -69,7 +69,26 @@ app.get('/Blog',(req,res) =>{
 
 /*----------------------------------------*/ 
 
-/*--------------------SUB PAGINA--------------------*/
+/*--------------------SUB PAGINA BLOG--------------------*/
+
+//Ruta BlogI1 
+app.get('/BlogI1',(req,res) =>{
+    res.render('BlogI1')
+})
+
+//Ruta BlogI2 
+app.get('/BlogI2',(req,res) =>{
+    res.render('BlogI2')
+})
+
+//Ruta BlogI3 
+app.get('/BlogI3',(req,res) =>{
+    res.render('BlogI3')
+})
+
+/*----------------------------------------*/ 
+
+/*--------------------SUB PAGINA RECETA--------------------*/
 
 //Sub pagina de receta -> red velvet
 app.get('/RecetaVelvet',(req,res)=>{
