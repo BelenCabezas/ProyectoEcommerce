@@ -86,6 +86,21 @@ app.get('/BlogI3',(req,res) =>{
     res.render('BlogI3')
 })
 
+//Ruta BlogI4 
+app.get('/BlogI4',(req,res) =>{
+    res.render('BlogI4')
+})
+
+//Ruta BlogI5 
+app.get('/BlogI5',(req,res) =>{
+    res.render('BlogI5')
+})
+
+//Ruta BlogI6 
+app.get('/BlogI6',(req,res) =>{
+    res.render('BlogI6')
+})
+
 /*----------------------------------------*/ 
 
 /*--------------------SUB PAGINA RECETA--------------------*/
