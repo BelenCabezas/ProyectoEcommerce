@@ -1,29 +1,26 @@
-const express=require('express')
-const app=express()
-
-//dotenv
+//dotenv (esto debería estar antes de usar las variables de entorno)
 require('dotenv').config();
 
-//colores para los mensajes de la consola
-const colors=require('colors')
+// Importaciones
+const express = require('express');
+const app = express();
+const connectDB = require('./config/db');
+const colors = require('colors');
 
-//Motor de plantillas 
-app.set('view engine','ejs')
+// Llamar a la función para conectar la base de datos
+connectDB();
 
-//Servicios estaticos 
-app.use(express.static('public'))
+// Motor de plantillas
+app.set('view engine', 'ejs');
 
-//Conexion server
-app.listen(4500,()=>{ 
-    })
+// Servicios estáticos
+app.use(express.static('public'));
 
-/*--------------------BASE DE DATOS--------------------*/
-    
-//Llamo a la funcion para conectar la base de datos
- //connectDB()
+// Conexión al servidor
+app.listen(4500, () => {
+    console.log('Servidor corriendo en el puerto 4500'.green);
+});
 
- //Traigo la conexion de la base de datos al index.js
-//const connectDB = require('./config/db');
 
 
 /*--------------------RUTAS--------------------*/
