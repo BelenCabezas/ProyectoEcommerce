@@ -10,6 +10,9 @@ const colors = require('colors');
 // Llamar a la función para conectar la base de datos
 connectDB();
 
+//traduzco los datos de JSON a objeto literal para la base
+use.app(express.json())
+
 // Motor de plantillas
 app.set('view engine', 'ejs');
 

@@ -9,7 +9,7 @@ const productoSchema = new mongoose.Schema({
     },
     Imagen: {
         type: String,
-        required:[true, 'por favor coloca una imagen del producto']
+        default:'El producto no tiene foto'
     },
     Precio: {
         type: Number,
