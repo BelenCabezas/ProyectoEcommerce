@@ -1,9 +1,34 @@
-//en este archivo voy a crear las colecciones de la base de datos
-const mongoose=require('mongoose')
-const productosSchema =new mongoose.Schema({
+const mongoose = require('mongoose');
 
-    // falta terminar de armar el esquema de la base de datos de productos.
+const productoSchema = new mongoose.Schema({
+    Titulo: {
+        type: String,
+        required: [true, 'Por favor ingrese el título del producto'],
+        trim: true, // elimina los espacios
+        maxlength: [500, 'El título no puede tener más de 500 caracteres'] 
+    },
+    Imagen: {
+        type: String,
+        required:[true, 'por favor coloca una imagen del producto']
+    },
+    Precio: {
+        type: Number,
+        required: [true, 'Por favor ingrese el precio del producto']
+    },
+    Descripción: {
+        type: String,
+        required: [true, 'Por favor ingrese la descripcion del producto'],
+        maxlength: [500, 'El producto no puede tener más de 500 caracteres'] 
+
+        
+    }
+});
+
+// Creación de la colección
+const Producto = mongoose.model('Producto', productoSchema);
+
+module.exports = Producto;
+
 
     
 
-})
