@@ -67,6 +67,11 @@ app.get('/Blog',(req,res) =>{
     res.render('Blog')
 })
 
+//Ruta Bakers
+app.get('/Bakers',(req,res) =>{
+    res.render('Bakers')
+})
+
 /*----------------------------------------*/ 
 
 /*--------------------SUB PAGINA BLOG--------------------*/
