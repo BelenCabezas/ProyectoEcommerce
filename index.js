@@ -1,14 +1,22 @@
 //dotenv (esto debería estar antes de usar las variables de entorno)
-require('dotenv').config();
+require('dotenv').config({ path: './config/.env' });
+
 
 // Importaciones
 const express = require('express');
 const app = express();
 const connectDB = require('./config/db');
 const colors = require('colors');
+//cookie parser
+const cookieParser = require('cookie-parser')
+
 
 // Llamar a la función para conectar la base de datos
 connectDB();
+
+//configuracion para cookie parser - activacion
+app.use(cookieParser())
+
 
 //traduzco los datos de JSON a objeto literal para la base
 app.use(express.json())
@@ -41,6 +49,7 @@ app.get('/',(req,res)=>{
 app.get('/Productos',(req,res)=>{
     res.render('Productos')
 })
+
 
 //Ruta Historia
 app.get('/Historia',(req,res)=>{

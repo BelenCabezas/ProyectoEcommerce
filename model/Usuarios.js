@@ -1,6 +1,7 @@
 const mongoose=require('mongoose')
 const bcrypt =require('bcrypt')
 const jwt=require('jsonwebtoken')
+const jsonwebtoken = require('jsonwebtoken')
 
 const UsuariosSchema=new mongoose.Schema({
     name:{ 
@@ -22,7 +23,7 @@ const UsuariosSchema=new mongoose.Schema({
     },
     password:{
         type:String,
-        required:[true,'por favor ingres su password'],
+        required:[true,'por favor ingrese su password'],
         minlength:6,
         select:false
     },
@@ -34,3 +35,18 @@ const UsuariosSchema=new mongoose.Schema({
     }
 
 })
+
+//encriptamos la contraseña
+UsuariosSchema.pre('save', async function () {
+    const salt=await bcrypt.genSalt(10)
+    this.password=await bcrypt.hash(this.password,salt)
+    
+})
+//funcion para hashear los datos
+UsuariosSchema.methods.getSignedJwtToken=function(){
+    //firma para reconocer a la persona
+    return jwt.sign({id:this._id}),process.env.JWT_SECRET,{expirein:process.env.JWT_EXPIRE}
+
+}
+module.exports = mongoose.model('Usuario',UsuariosSchema)
+
